@@ -3,6 +3,7 @@
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     user-select: none;
+    box-sizing: border-box;
 }
 
 .mainContainer{
@@ -106,7 +107,7 @@ hr{
     background-color: rgb(197, 197, 197);
   }
 .tertiary{
-    width: 11%;
+    width: 16%;
     background-color: rgb(255, 114, 109);
 }
 .tertiary:hover{
