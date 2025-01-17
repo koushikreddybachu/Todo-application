@@ -63,6 +63,11 @@ for(let i=0;i<todoList.length;i++)
     createTodoItem(todoList[i]);
 
 clearButton.onclick=() => {
+    if(todoList.length === 0)
+    {
+        alert("No items to clear")
+        return;
+    }
     localStorage.clear();
     todoList.length=0;
     labelContainer.innerHTML="";
