@@ -91,8 +91,9 @@ hr{
   .primary {
     width: 40%;
     background-color:#00bfff96;
+    min-width: 90px;
     color: white;
-    margin-left: 3%;
+    margin-left: 4%;
 
   }
   .primary:hover {
@@ -100,6 +101,7 @@ hr{
   }
   .secondary {
     width: 40%;
+    min-width: 90px;
     background-color: #ddd;
     margin-left: 5%;
   }
