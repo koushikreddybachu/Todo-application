@@ -107,7 +107,7 @@ hr{
     background-color: rgb(197, 197, 197);
   }
 .tertiary{
-    width: 16%;
+    width: 90px;
     background-color: rgb(255, 114, 109);
 }
 .tertiary:hover{
