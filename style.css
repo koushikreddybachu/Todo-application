@@ -1,0 +1,117 @@
+*{
+    padding:0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+.mainContainer{
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+.createTaskSection{
+    border: solid 1px gray;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 650px ;
+    width: 80%;
+    background-color: white;
+}
+.createTaskHeading{
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+.inputContainer{
+    margin: 15px 0px 0px;
+    width: 90%;
+    height: 35px;
+    border:solid 1px rgba(128, 128, 128, 0.411);
+    outline: none;
+    padding-left: 5px;
+}
+.inputContainer::placeholder{
+    font-size: 14px;
+    color: rgba(180, 178, 178, 0.425);
+}
+
+.inputContainer:focus{
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    background-color: white;
+}
+.inputContainer:hover{
+    cursor:text;
+}
+hr{
+    width: 90%;
+}
+.labelStyle{
+    background-color: #e6f6ff;
+    border-left: solid #025774 5px;
+    border-radius: 5px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+}
+.labelStyle:hover{
+    background-color: #dceef8;
+}
+.checkboxLabel{
+    width: 85%;
+    height: 45px;
+}
+.deleteButton{
+    border: none;
+    background-color: transparent;
+}
+.deleteButton:hover{
+   transform: scale(1.2);
+   color: rgb(241, 30, 30);
+   transition-duration: 120ms;
+}
+.deleteButton:active{
+    transform: scale(1);
+    color: rgb(243, 97, 97);
+}
+.labelText{
+    margin-top: 6px;
+    font-weight: 540;
+}
+.button {
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .primary {
+    width: 40%;
+    background-color:#00bfff96;
+    color: white;
+  }
+  .primary:hover {
+    background-color: #00bfff;
+  }
+  .secondary {
+    width: 40%;
+    background-color: #ddd;
+  }
+  .secondary:hover {
+    background-color: rgb(197, 197, 197);
+  }
+.tertiary{
+    width: 11%;
+    background-color: rgb(255, 114, 109);
+}
+.tertiary:hover{
+    background-color: rgb(255, 73, 66);
+}
+.checked{
+    /* background-color: rgb(160, 160, 160); */
+    text-decoration: line-through;
+    /* border: rgb(160, 160, 160); */
+}
+/* .checked:hover{
+    background-color: grey;
+} */
