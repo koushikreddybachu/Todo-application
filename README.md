@@ -16,4 +16,4 @@ A simple and efficient Todo application built using modern web technologies. Thi
 
 ## **Live Demo**
 
-Access the deployed application here: [Todo Application](https://koushikreddybachu.github.io/Todo)
+Access the deployed application here: [Todo Application](https://koushikreddybachu.github.io/Todo-application/)
